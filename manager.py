@@ -1,6 +1,11 @@
 import json
 import os
 import datetime
+
+import matplotlib
+matplotlib.use('TkAgg')
+
+
 import matplotlib.pyplot as plt
 from task import Task
 
